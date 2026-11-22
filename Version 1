@@ -1,0 +1,15 @@
+first_name = str(input("Enter your first name: "))
+last_name = str(input("Enter your last name: "))
+section = str(input("Enter your section: "))
+event_name = str(input("Enter event name: "))
+year = str(input("Enter event year: "))
+month = str(input("Enter event month: "))
+day = str(input("Enter event day: "))
+
+full_name = first_name + " " + last_name
+
+print("\nStudent Event Registration Summary")
+print("Name:", full_name)
+print("Section:", section)
+print("Event:", event_name)
+print("Event Date:", month, day + ",", year)
